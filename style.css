@@ -1,0 +1,45 @@
+         h1, h2, h3, h4 {
+            text-transform: uppercase;
+        }
+        #header {
+            background-color: rgb(218, 173, 255);
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-family: 'Rubik', sans-serif;
+        }
+        .nameAndTitle {
+            background-color: #fff;
+            width: 550px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .nameAndTitle h1, h2 {
+            margin: 0;
+        }
+        .contact {
+            list-style-type: none;
+        }
+        .contact i {
+            width: 30px;
+            color: rgb(218, 173, 255);
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 30% auto;
+            grid-column-gap: 20px;
+
+        }
+        .sidebar, .content {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+        .card h3 {
+            font-family: 'Rubik', sans-serif;  
+        }
+        .card {
+            font-family: 'Montserrat', sans-serif;
+            border: 1px solid #d1d1d1;
+            border-radius: 20px;
+            padding: 20px;
+        }
